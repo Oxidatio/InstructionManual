@@ -1,0 +1,27 @@
+# Gradle / 构建产物
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机配置（含 SDK 绝对路径，不可提交）
+local.properties
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 签名与密钥
+*.jks
+*.keystore
+
+# Claude Code（本地开发用，不上传）
+CLAUDE.md
+.claude/
