@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 翻开的说明书 + 书签 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- 左页 -->
     <path
-        android:fillColor="#3DDC84"
-        android:pathData="M0,0h108v108h-108z" />
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M25.92,33.48 L51.8,41.93 L51.8,74.52 L25.92,65.88 Z" />
+
+    <!-- 右页 -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M38,30h32v8h-32zM38,44h32v8h-32zM38,58h32v8h-32z" />
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M82.08,33.48 L56.2,41.93 L56.2,74.52 L82.08,65.88 Z" />
+
+    <!-- 左页文字 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M31.32,44.28 L46.30,49.17" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M31.32,51.84 L46.30,56.73" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M31.32,59.40 L42.60,63.08" />
+
+    <!-- 右页文字 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M76.68,44.28 L61.70,49.17" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M76.68,51.84 L61.70,56.73" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7FA3E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M76.68,59.40 L65.40,63.08" />
+
+    <!-- 书签丝带 -->
+    <path
+        android:fillColor="#FFFFB020"
+        android:pathData="M49.2,41.08 L58.8,41.08 L58.8,66 L54,61 L49.2,66 Z" />
+
 </vector>

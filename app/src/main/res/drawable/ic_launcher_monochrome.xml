@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 单色图层（Android 13+ 主题图标）。书签用 evenOdd 挖空，保证单色下仍可辨认。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M25.92,33.48 L51.8,41.93 L51.8,74.52 L25.92,65.88 Z M82.08,33.48 L56.2,41.93 L56.2,74.52 L82.08,65.88 Z M49.2,41.08 L58.8,41.08 L58.8,66 L54,61 L49.2,66 Z" />
+
+</vector>
